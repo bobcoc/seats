@@ -25,7 +25,7 @@ def process_student_data():
         # 假设学生信息的列名可能包含：姓名、考号等
         # 根据实际文件结构调整列名
         possible_name_cols = ['姓名', '学生姓名', 'name', '学员姓名']
-        possible_id_cols = ['考号', '学号', '准考证号', 'id', '考试号']
+        possible_id_cols = ['考号', '考试号']
         
         name_col = None
         id_col = None
